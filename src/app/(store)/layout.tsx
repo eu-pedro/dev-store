@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 
 export default function StoreLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="mx-auto grid min-h-screen w-full max-w-[1600px] grid-rows-app p-8">
+    <div className="mx-auto grid min-h-screen w-full max-w-[1600px] grid-rows-app gap-5 p-8">
       <Header />
       {children}
     </div>
